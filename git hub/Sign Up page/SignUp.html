@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="icon" type="image/png" href="../Home Page/images/pottery.png" />
+    <link rel="stylesheet" href="../Home Page/styles.css" />
+  </head>
+  <body class="SignUpBody">
+    <!-- Header Section -->
+    <header>
+      <section class="signUpHeader">
+        <div class="container">
+          <div class="logo">
+            <img src="../Home Page/images/logobg.png" alt="logo" />
+          </div>
+        </div>
+      </section>
+    </header>
+    <main>
+      <!-- Sign Up Form Section -->
+      <section class="SignUpContainer">
+        <div class="signUp">
+          <h2>Sign Up</h2>
+          <p>Don't miss out! Get our latest updates and special offers.</p>
+          <br />
+          <div>
+            <form
+              action="../Home Page/homepage.html"
+              method="post"
+              id="signUpForm"
+            >
+              <!-- Full Name -->
+              <label for="fullname" class="topBoxText">Full Name:</label><br />
+              <input
+                class="inputBox"
+                type="text"
+                id="fullname"
+                name="fullname"
+                placeholder="Enter your full name"
+                required
+              /><br /><br />
+
+              <!-- Email -->
+              <label for="email" class="topBoxText">Email:</label><br />
+              <input
+                class="inputBox"
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your Email"
+              /><br /><br />
+
+              <!-- Password -->
+              <label for="password" class="topBoxText">Password:</label><br />
+              <input
+                class="inputBox"
+                type="password"
+                id="password"
+                name="password"
+                placeholder="Enter your Password"
+                required
+              /><br /><br />
+
+              <!-- Confirm Password -->
+              <label for="confirm_password" class="topBoxText"
+                >Confirm Password:</label
+              ><br />
+              <input
+                class="inputBox"
+                type="password"
+                id="confirm_password"
+                name="confirm_password"
+                placeholder="Confirm your Password"
+                required
+              /><br /><br />
+
+              <!-- Gender -->
+
+              <label class="topBoxText">Gender:</label><br />
+              <!-- Male -->
+              <input
+                class="M-FRadio"
+                type="radio"
+                id="male"
+                name="gender"
+                value="male"
+                required
+              />
+              <label for="male" class="genderM-F">Male</label><br />
+              <!-- Female -->
+              <input
+                class="M-FRadio"
+                type="radio"
+                id="female"
+                name="gender"
+                value="female"
+                required
+              />
+              <label for="female" class="genderM-F">Female</label><br /><br />
+
+              <!-- Terms and Conditions -->
+              <input
+                class="checkbox"
+                type="checkbox"
+                id="terms"
+                name="terms"
+                required
+              />
+              <label for="terms" class="agreement"
+                >I agree to the website's terms and conditions. </label
+              ><br />
+
+              <!-- Submit Button -->
+              <button class="submitButton" type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footerSection">
+      <div class="footerContainer">
+        <div class="logoImg">
+          <img
+            src="../Home Page/images/logo.png"
+            alt="website logo"
+            height="200"
+          />
+        </div>
+        <div class="socialIcons">
+          <h4>Social Media</h4>
+          <a href="https://www.facebook.com/" target="_blank">
+            <img
+              src="../Home Page/images/facebook.png"
+              alt="facebookIcon"
+              height="80"
+          /></a>
+          <a href="https://www.instagram.com/" target="_blank">
+            <img
+              src="../Home Page/images/instagram.png"
+              alt="instagramIcon"
+              height="80"
+            />
+          </a>
+
+          <a href="https://www.youtube.com/" target="_blank">
+            <img
+              src="../Home Page/images/twitter.png"
+              alt="twitterIcon"
+              height="80"
+          /></a>
+        </div>
+
+        <div class="contactInfo">
+          <h4>Contact Information</h4>
+          <ul>
+            <li>address : Gaza City</li>
+            <li>Phone Number : 0564478963</li>
+            <li>Email : Noor El-telbani@gmail.com</li>
+          </ul>
+        </div>
+        <div class="privacyPolicy">
+          <h4>
+            For details about how we use your information, please see our
+            <a href="#"
+              ><small class="privacyPolicyText">privacy Policy</small></a
+            >
+          </h4>
+        </div>
+      </div>
+      <hr />
+      <small class="copyRights"
+        >&copy; 2025 Pottery shop by noor. ALL Rights Reserved.
+      </small>
+    </footer>
+    <script src="scriptSignup.js"></script>
+  </body>
+</html>

@@ -1,0 +1,587 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand", sans-serif;
+}
+
+html {
+  background-color: #f2eee7;
+}
+/* Home Page CSS Code */
+/* Cover Section */
+.wrapper {
+  width: 1500px;
+}
+
+.Cover {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("images/cover\ img.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+.nav-area {
+  float: right;
+  list-style: none;
+  margin-top: 60px;
+  padding-right: 5px;
+}
+
+.nav-area li {
+  display: inline-block;
+}
+.nav-area li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-size: 14px;
+}
+.nav-area li a:hover {
+  background: #fff;
+  color: #333;
+  border-radius: 5px;
+}
+.search {
+  display: inline-block;
+}
+
+form,
+button {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.SearchBox {
+  background-color: white;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  color: #343f3a;
+  padding: 0 6px;
+  font-size: 16px;
+}
+
+.buttonStyle {
+  border: none;
+  background-color: #343f3a;
+  color: #f2eee7;
+  border-radius: 5px;
+  width: 60px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.logo img {
+  position: absolute;
+  width: 100px;
+  float: left;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+/* Cover-Welcome Text */
+.Welcome-text {
+  position: absolute;
+  margin: 20% 30%;
+  text-align: center;
+}
+
+.Welcome-text h1 {
+  text-align: center;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.Welcome-text p {
+  text-align: center;
+  color: #fff;
+  font-size: 40px;
+  font-weight: light;
+}
+
+/* New In Stock section  */
+.textOnTop {
+  margin-top: 40px;
+}
+.textOnTop h2 {
+  display: inline-block;
+  font-size: 40px;
+  font-weight: bold;
+  color: #343f3a;
+  padding-left: 30px;
+}
+.textOnTop p {
+  float: right;
+}
+.textOnTop a {
+  font-size: 20px;
+  padding-top: 0%;
+  color: #343f3a;
+  padding-right: 30px;
+  text-decoration: none;
+}
+
+.textOnTop p:hover {
+  background-color: #343f3a;
+  border-radius: 5px;
+  margin-right: 20px;
+  padding: 5px 0px 5px 30px;
+}
+
+.textOnTop p:hover a {
+  font-size: 20px;
+  color: #f2eee7;
+  text-decoration: none;
+}
+
+.images li {
+  display: inline-block;
+  margin-top: 30px;
+}
+.images ul li img {
+  display: inline;
+  width: 200px;
+  height: 200px;
+  object-fit: fill;
+  padding: 5px 20px;
+  border-radius: 15%;
+}
+
+/* About The Project section  */
+.AbouttheProjectSection {
+  background-color: #343f3a;
+}
+.aboutTheProject h2 {
+  color: #fff;
+  text-align: center;
+  padding-top: 40px;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+.pAboutTheProject {
+  color: #fff;
+  text-align: left;
+  font-size: 30px;
+  padding: 150px 430px 0px 50px;
+  line-height: 60px;
+}
+
+.imgAboutTheProject {
+  float: right;
+  margin-top: 30px;
+  padding-right: 50px;
+  border-radius: 0px 0px 0px 200px;
+}
+
+.imgAboutTheProjectLeft {
+  float: left;
+  margin-top: 250px;
+  padding-left: 50px;
+  border-radius: 0px 200px 0px 0px;
+}
+.pAboutTheProjectRight {
+  color: #fff;
+  text-align: left;
+  font-size: 30px;
+  padding: 400px 50px 230px 0px;
+  margin-left: 430px;
+  line-height: 60px;
+}
+
+/* Collection Section */
+.image-container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  padding: 30px 0px 0px 50px;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 5px;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 60%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+  pointer-events: none;
+}
+
+/* WORKSHOPS Section */
+
+.workshopSection {
+  width: 100%;
+  overflow: hidden;
+  padding-top: 100px;
+}
+
+.workshop h2 {
+  display: inline-block;
+  font-size: 40px;
+  font-weight: bold;
+  color: #343f3a;
+}
+
+.workshop p {
+  margin-top: 20px;
+  display: inline-block;
+  font-size: 25px;
+  text-align: left;
+  color: #343f3a;
+}
+
+.video-container {
+  float: left;
+  padding-left: 60px;
+  margin-top: 25px;
+}
+
+.workshop {
+  float: right;
+  width: 50%;
+  padding-right: 70px;
+}
+
+.ButtonStyle button {
+  margin-top: 25px;
+  padding: 10px 20px;
+  background-color: #343f3a;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.ButtonStyle button a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.ButtonStyle button:hover {
+  margin-top: 25px;
+  padding: 10px 20px;
+  background-color: #f2eee7;
+  border: 2px solid #343f3a;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.ButtonStyle button:hover a {
+  color: #343f3a;
+}
+
+/* Part Of Our Soul In Your Business Section */
+
+.partOfOurSoulSection {
+  padding-top: 60px;
+}
+
+.partOfOurSoul {
+  padding-left: 80px;
+  padding-top: 90px;
+}
+.partOfOurSoulSection {
+  width: 100%;
+  overflow: hidden;
+  padding-top: 100px;
+}
+
+.partOfOurSoul h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #343f3a;
+}
+
+.partOfOurSoul p {
+  margin-top: 20px;
+
+  font-size: 25px;
+  text-align: left;
+  color: #343f3a;
+}
+
+.imgContainer img {
+  float: right;
+  width: 500px;
+  padding-right: 50px;
+  padding-left: 30px;
+}
+
+/* Footer Section */
+.footerSection {
+  background-color: #343f3a;
+  margin-top: 100px;
+  overflow: hidden;
+}
+
+.footerContainer {
+  width: 100%;
+  overflow: hidden;
+}
+
+.logoImg {
+  float: left;
+  padding-left: 50px;
+  margin-top: 50px;
+}
+
+.socialIcons {
+  float: left;
+  width: 40%;
+  text-align: center;
+  margin-left: 120px;
+}
+
+.socialIcons a {
+  text-decoration: none;
+}
+
+.socialIcons img {
+  margin: 50px 10px;
+}
+
+.socialIcons h4 {
+  font-size: 25px;
+  margin-top: 50px;
+  color: #f2eee7;
+}
+
+.contactInfo {
+  float: right;
+  width: 30%;
+}
+.contactInfo h4 {
+  font-size: 25px;
+  color: #f2eee7;
+  margin: 50px 0px 40px 0px;
+}
+
+.contactInfo ul {
+  list-style: none;
+}
+.contactInfo ul li {
+  font-size: 16px;
+  color: #f2eee7;
+  margin-top: 10px;
+}
+
+.privacyPolicy {
+  clear: both;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #f2eee7;
+}
+.privacyPolicy h4 a {
+  text-decoration: none;
+}
+.privacyPolicyText {
+  display: inline;
+  color: #f2eee7;
+  font-weight: lighter;
+}
+.copyRights {
+  display: block;
+  text-align: center;
+  margin: 10px 0px;
+  font-size: 12px;
+  color: #f2eee7;
+}
+
+/* Sign Up Page CSS Code */
+/* Sign Up Form Section */
+
+.SignUpBody {
+  background-image: url("../Home Page/images/blob-scene-haikei.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.SignUpContainer {
+  display: flex;
+  justify-content: center;
+}
+.signUp {
+  margin-top: 150px;
+  background-color: #f2eee7;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 500px;
+}
+
+.signUp h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #343f3a;
+  text-align: center;
+}
+.signUp p {
+  font-size: 20px;
+  color: #343f3a;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.topBoxText {
+  font-size: 15px;
+  color: #343f3a;
+}
+
+.genderM-F {
+  color: #343f3a;
+  font-size: 13px;
+}
+
+.agreement {
+  font-size: 12px;
+  color: #343f3a;
+}
+
+.inputBox {
+  border-radius: 10px;
+  height: 40px;
+  margin-top: 10px;
+  width: 350px;
+  border: none;
+  padding-left: 10px;
+}
+
+.M-FRadio {
+  accent-color: #343f3a;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+.checkbox {
+  cursor: pointer;
+  margin-left: 100px;
+}
+
+.submitButton {
+  background-color: #343f3a;
+  color: #f2eee7;
+  border: none;
+  outline: none;
+  margin-top: 20px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+  width: 350px;
+  height: 40px;
+  margin-left: 60px;
+}
+
+.submitButton:hover {
+  background-color: #f2eee7;
+  color: #343f3a;
+  border: 2px solid #343f3a;
+  outline: none;
+  margin-top: 20px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+  width: 350px;
+  height: 40px;
+}
+
+input::placeholder {
+  color: #b3b3b3;
+  font-size: 10px;
+}
+
+/* Contact Us Page CSS Code */
+.Contactuscontainer {
+  display: flex;
+  justify-content: center;
+}
+.ContactUsForm {
+  background-color: #f2eee7;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 500px;
+}
+
+/* cover Section */
+.contactUsCover {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("images/pexels-cottonbro-6692601.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+/* Contact Us Form Section */
+.ContactUsForm h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #343f3a;
+  text-align: center;
+}
+.ContactUsForm p {
+  font-size: 20px;
+  color: #343f3a;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.textAreaStyle {
+  border-radius: 10px;
+  height: 120px;
+  margin-top: 10px;
+  width: 350px;
+  border: none;
+  padding-left: 10px;
+}
+
+.ContactUsForm {
+  margin-top: 50px;
+  padding-left: 50px;
+}
+
+.FormItems {
+  margin-top: 20px;
+}
+
+/* Google Map Embed Section */
+
+.googleMap {
+  background-color: #343f3a;
+  margin-top: 60px;
+  padding: 30px 0px;
+}
+
+.googleMap h3 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #f2eee7;
+  text-align: center;
+}
+
+.MapIframe {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: 5px solid #f2eee7;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(242, 238, 231, 0.2);
+}

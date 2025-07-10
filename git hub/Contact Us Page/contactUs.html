@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="icon" type="image/png" href="../Home Page/images/pottery.png" />
+    <link rel="stylesheet" href="../Home Page/styles.css" />
+  </head>
+  <body>
+    <header>
+      <!-- Header Section -->
+      <section class="contactUsCover">
+        <div class="container">
+          <div class="wrapper">
+            <div class="logo">
+              <img src="../Home Page/images/logo.png" alt="logo" />
+            </div>
+            <nav>
+              <ul class="nav-area">
+                <li><a href="../Home Page/homePage.html">Home</a></li>
+                <li><a href="../Sign Up page/SignUp.html">Sign Up</a></li>
+                <li>
+                  <a href="contactUs.html">Contact Us</a>
+                </li>
+                <li>
+                  <form>
+                    <input
+                      class="SearchBox"
+                      type="text"
+                      placeholder="Search ..."
+                    />
+                    <button class="buttonStyle" type="submit">GO</button>
+                  </form>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="Welcome-text">
+          <h1>Contact Us</h1>
+          <p>We'd love to hear from you!</p>
+        </div>
+      </section>
+    </header>
+    <main>
+      <!-- Contact Us Form Section -->
+      <section class="contactUs">
+        <div class="Contactuscontainer">
+          <div class="ContactUsForm">
+            <h2>Get In Touch</h2>
+            <p>
+              Whether you have a question, feedback, or just want to say hello,
+              our team is here to help. <br />
+              Fill out the form below or reach out to us through the contact
+              details provided <br />
+              we’ll get back to you as soon as possible.
+            </p>
+
+            <!-- Contact Form -->
+            <form class="FormItems" action="submit_contact.html" method="post">
+              <!-- Name -->
+              <label for="name" class="topBoxText">Name:</label><br />
+              <input
+                class="inputBox"
+                type="text"
+                id="name"
+                name="name"
+                required
+              /><br /><br />
+
+              <!-- Email -->
+              <label for="email" class="topBoxText">Email:</label><br />
+              <input
+                class="inputBox"
+                type="email"
+                id="email"
+                name="email"
+                required
+              /><br /><br />
+
+              <!-- Subject -->
+              <label for="subject" class="topBoxText">Subject:</label><br />
+              <input
+                class="inputBox"
+                type="text"
+                id="subject"
+                name="subject"
+                required
+              /><br /><br />
+
+              <!-- Message -->
+              <label for="message" class="topBoxText">Message:</label><br />
+              <textarea
+                class="textAreaStyle"
+                id="message"
+                name="message"
+                rows="5"
+                cols="30"
+                required
+              ></textarea
+              ><br /><br />
+
+              <!-- Submit Button -->
+              <button class="submitButton" type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- Google Map Embed Section -->
+      <section class="googleMap">
+        <h3>Our Location</h3>
+        <iframe
+          class="MapIframe"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.086315252639!2d-122.08424968468125!3d37.42199997982526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb0a6d53f3a0d%3A0x9a2c0e57eb8dbd8b!2sGoogleplex!5e0!3m2!1sen!2sus!4v1716400000000"
+          width="600"
+          height="450"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        >
+        </iframe>
+      </section>
+    </main>
+    <!-- Footer Section -->
+    <footer class="footerSection">
+      <div class="footerContainer">
+        <div class="logoImg">
+          <img
+            src="../Home Page/images/logo.png"
+            alt="website logo"
+            height="200"
+          />
+        </div>
+        <div class="socialIcons">
+          <h4>Social Media</h4>
+          <a href="https://www.facebook.com/" target="_blank">
+            <img
+              src="../Home Page/images/facebook.png"
+              alt="facebookIcon"
+              height="80"
+          /></a>
+          <a href="https://www.instagram.com/" target="_blank">
+            <img
+              src="../Home Page/images/instagram.png"
+              alt="instagramIcon"
+              height="80"
+            />
+          </a>
+
+          <a href="https://www.youtube.com/" target="_blank">
+            <img
+              src="../Home Page/images/twitter.png"
+              alt="twitterIcon"
+              height="80"
+          /></a>
+        </div>
+
+        <div class="contactInfo">
+          <h4>Contact Information</h4>
+          <ul>
+            <li>address : Gaza City</li>
+            <li>Phone Number : 0564478963</li>
+            <li>Email : Noor El-telbani@gmail.com</li>
+          </ul>
+        </div>
+        <div class="privacyPolicy">
+          <h4>
+            For details about how we use your information, please see our
+            <a href="#"
+              ><small class="privacyPolicyText">privacy Policy</small></a
+            >
+          </h4>
+        </div>
+      </div>
+      <hr />
+      <small class="copyRights"
+        >&copy; 2025 Pottery shop by noor. ALL Rights Reserved.
+      </small>
+    </footer>
+  </body>
+</html>
